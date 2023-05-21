@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FeudAID</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <img src="assets/wrong.webp" class="wrong" id="wrong">
+    <img src="assets/logo.png" alt="FeudAID" class="logo">
+
+    <div class="container">
+        <div class="searchbar">
+            <div class="question" id="question"></div>
+            <input type="text" id="guess">
+        </div>
+        <hr>
+        
+        <ul id="answers"></ul>
+        <button id="next">Next Question</button>
+        <div class="info">
+            <div class="scoreboard">
+                <h3>Score</h3>
+                <div class="scores" id="points"></div>
+            </div>
+            <div class="scoreboard">
+                <h3>Guesses</h3>
+                <div class="scores" id="guesses"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
